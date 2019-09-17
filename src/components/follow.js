@@ -20,11 +20,11 @@ class Follow extends Component {
                 <div class="col-2">
                     <img src={this.state.avatar} alt="picSg" />
                 </div>
-                <div class="col-7">
+                <div class="col-6">
                     <h4>{this.state.name}</h4>
                     <p>{this.state.nick}</p>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <button type="button" onClick={this.seguir} class="btn btn-info">{this.state.follow}</button>
                 </div>
             </div>
